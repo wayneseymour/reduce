@@ -46,8 +46,8 @@ const input = [
   }
 ]
 
-// flatmap: reduce just like map, filter
-// Takes a list, and turns each value into an array
+// flatmap: allows you to convert an array of objects
+// into an array of arrays which then get flattened
 
 const stars = input.reduce((acc, val) => {
   val.cast.forEach(star => {
